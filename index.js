@@ -62,7 +62,7 @@ app.use(
 app.use(express.json());
 
 app.get('/api/v1', (req, res) => {
-  res.send('<h2>vane 88Test  </h2>');
+  res.send('<h2>vane</h2>');
   console.log('ran');
 });
 
