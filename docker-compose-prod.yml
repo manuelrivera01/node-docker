@@ -10,7 +10,7 @@ services:
         condition: any
       update_config:
         parallelism: 2
-        delay: 15s
+        delay: 16s
     build:
       context: .
       args:
